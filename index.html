@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard Layout Customizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Dashboard Layout Customizer</h1>
+
+<div class="controls">
+  <button onclick="toggle('stats')">Toggle Stats</button>
+  <button onclick="toggle('charts')">Toggle Charts</button>
+  <button onclick="toggle('logs')">Toggle Logs</button>
+</div>
+
+<div class="layout">
+  <div id="stats" class="box">Stats Widget</div>
+  <div id="charts" class="box">Charts Widget</div>
+  <div id="logs" class="box">Logs Widget</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
