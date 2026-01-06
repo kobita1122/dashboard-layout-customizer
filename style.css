@@ -1,0 +1,31 @@
+body {
+  background: #020617;
+  color: #e5e7eb;
+  font-family: Arial;
+  padding: 40px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 8px 14px;
+  margin-right: 5px;
+  border: none;
+  background: #3b82f6;
+  cursor: pointer;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.box {
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
